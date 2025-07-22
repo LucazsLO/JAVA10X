@@ -1,6 +1,4 @@
-<p align="center">
-  ![shaun the sheep movie characters GIF](https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExMXQ3MHFuZWQ1cnY0cGg4ZTZzemJvbWppaXRkaHg2YjAzOHBnN2N5ZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/mwkiyifwa7I6x8Qe9y/giphy.gif)
-</p>
+![shaun the sheep movie characters GIF](https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExMXQ3MHFuZWQ1cnY0cGg4ZTZzemJvbWppaXRkaHg2YjAzOHBnN2N5ZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/mwkiyifwa7I6x8Qe9y/giphy.gif)
 
 # 🚀 Jornada de Estudos JAVA10x
 
