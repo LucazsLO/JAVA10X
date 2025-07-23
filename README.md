@@ -4,7 +4,7 @@
 # 🚀 Jornada de Estudos JAVA10x
 
 Bem-vindo(a) à minha **Jornada de Estudos JAVA10x**!  
-Este repositório documenta meu progresso, anotações e projetos enquanto avanço no curso [JAVA10x](https://java10x.dev), criado por Horacio (Fiasco). O foco é dominar Java do básico ao avançado, com aplicações reais e preparação para o mercado de trabalho.
+Este repositório documenta meu progresso, anotações e projetos enquanto avanço no curso JAVA10x, criado por Horacio (Fiasco). O foco é dominar Java do básico ao avançado, com aplicações reais e preparação para o mercado de trabalho.
 
 ---
 
