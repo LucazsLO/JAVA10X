@@ -7,4 +7,6 @@ public abstract class Ninja {
     int idade;
 
     public abstract void nomeDoNInja();
+
+    public abstract void HablidadeEspecial();
 }

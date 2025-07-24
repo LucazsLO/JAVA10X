@@ -4,7 +4,11 @@ public class Uchiha extends Ninja{
 
     @Override
     public void nomeDoNInja() {
-
         System.out.println("Meu nome é " + nome);
+    }
+
+    @Override
+    public void HablidadeEspecial() {
+
     }
 }
