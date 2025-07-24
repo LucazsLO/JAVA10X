@@ -9,6 +9,5 @@ public class Hyuga extends Ninja{
     @Override
     public void HablidadeEspecial() {
         System.out.println("Meu nome é " + nome +" e esse é meu ataque Hyuga, jutsu Oito Trigramas!");
-        System.out.println("ohh Naruto!!");
     }
 }
