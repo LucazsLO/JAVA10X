@@ -1,6 +1,6 @@
 package NivelIntermediario2;
 
-public class Hogakes {
+public abstract class Hogakes {
 
         String nome;
         int idade;
@@ -8,6 +8,8 @@ public class Hogakes {
         String Aldeia;
         int Missao;
         double Altura;
+
+        public abstract void sabedoriaHokage();
 
         //Noargs (construtor vazio sem argumentos)
         public Hogakes(){
