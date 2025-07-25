@@ -8,5 +8,7 @@ public abstract class Ninja {
 
     public abstract void nomeDoNInja();
 
-    public abstract void HablidadeEspecial();
+    public void HablidadeEspecial(){
+
+    }
 }

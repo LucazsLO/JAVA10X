@@ -11,5 +11,6 @@ public class Main {
         Uchiha Sasuke = new Uchiha();
         Sasuke.nome = "Sasuke Uchiha";
         Sasuke.nomeDoNInja();
+        Sasuke.HablidadeEspecial();
     }
 }
