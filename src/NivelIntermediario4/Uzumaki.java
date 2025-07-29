@@ -13,8 +13,8 @@ public class Uzumaki extends Ninja {
         System.out.println("Meu nome é " + nome +" e esse é meu ataque Uzumaki, rasengAN! ");
     }
 
-    /*@Override
+    @Override
     public void estrategiaDeBatalhaNinja(){
         System.out.println("Eu vou usar meu Jutsu sexy!");
-    }*/
+    }
 }
