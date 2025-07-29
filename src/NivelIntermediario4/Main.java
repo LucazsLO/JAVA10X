@@ -20,5 +20,9 @@ public class Main {
         Sasuke.aldeia = "Aldeia da Folha";
         Sasuke.idade = 18;
         Sasuke.HablidadeEspecial();
+
+        //Object 3: Itachi
+        Uchiha Itachi = new Uchiha("Itachi Uchiha", "aldeia da folha", 27);
+        Itachi.HablidadeEspecial();
     }
 }
