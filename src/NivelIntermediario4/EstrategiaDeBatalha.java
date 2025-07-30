@@ -4,4 +4,8 @@ public interface EstrategiaDeBatalha {
 
     void estrategiaDeBatalhaNinja();
 
+    void inteligenciaEmCombate();
+
+    void inteligenciaEmCombate(int qi);
+
 }

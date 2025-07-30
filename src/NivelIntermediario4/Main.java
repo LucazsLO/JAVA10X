@@ -34,5 +34,6 @@ public class Main {
         Uchiha Madara = new Uchiha("Uchiha Madara","aldeia da folha",40, 900, RankNinja.KAGE );
         Madara.HablidadeEspecial();
         Madara.SharingaAtivado();
+        Madara.inteligenciaEmCombate(190);
     }
 }

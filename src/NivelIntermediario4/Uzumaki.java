@@ -22,4 +22,21 @@ public class Uzumaki extends Ninja {
     public void estrategiaDeBatalhaNinja(){
         System.out.println("Eu vou usar meu Jutsu sexy!");
     }
+
+    @Override
+    public void inteligenciaEmCombate(){
+        System.out.println("Meu nome é " + nome +" e esse é minha estrategia de combate! ");
+    }
+
+    @Override
+    public void inteligenciaEmCombate(int qi){
+        System.out.println("Meu nome é " + nome +" e esse é minha estrategia de combate! ");
+        if(qi>150){
+            System.out.println("Seu QI é: " + qi +" e você é um gênio!");
+        }else if (qi >= 130) {
+            System.out.println("Seu QI é: " + qi+" você é um ninja promissor!");
+        }else{
+            System.out.println("Seu QI é: " + qi+" você precisar treinar mais suas estrategias!");
+        }
+    }
 }
