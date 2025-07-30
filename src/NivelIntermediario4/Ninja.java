@@ -55,4 +55,9 @@ public abstract class Ninja implements EstrategiaDeBatalha {
             System.out.println("Seu QI é: " + qi+" você precisar treinar mais suas estrategias!");
         }
     }
+
+    @Override
+    public String toString() {
+        return "Meu nome é " + nome;
+    }
 }
