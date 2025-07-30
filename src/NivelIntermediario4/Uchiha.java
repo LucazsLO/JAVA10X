@@ -12,9 +12,13 @@ public class Uchiha extends Ninja implements SharingaInterface{
         super(nome, aldeia, idade);
     }
 
+    public Uchiha(String nome, String aldeia, int idade, int numeroDeMissoes, RankNinja rank) {
+        super(nome, aldeia, idade, numeroDeMissoes, rank);
+    }
+
     @Override
     public void HablidadeEspecial(){
-        System.out.println("Meu nome é " + nome +" e esse é meu ataque Uchiha, jutsu bola de fogo! ");
+        System.out.println("Meu nome é " + nome +" e esse é meu ataque Uchiha, jutsu bola de fogo. Eu ja completei " +numeroDeMissoes+" missões!" );
     }
 
     @Override
