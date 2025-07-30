@@ -3,14 +3,19 @@ package NivelIntermediario4;
 import NivelIntermediario4.Ninja;
 
 public class Uzumaki extends Ninja {
-    //Método
+
+    public Uzumaki(String nome, String aldeia, int idade, int numeroDeMissoes, RankNinja rank) {
+        super(nome, aldeia, idade, numeroDeMissoes, rank);
+    }
+
+    //Metodo
     public void Modosabio(){
         System.out.println("Meu nome é " + nome + ". Modo sabio ativado, eu sou do clã Uzumaki!");
     }
 
     @Override
     public void HablidadeEspecial() {
-        System.out.println("Meu nome é " + nome +" e esse é meu ataque Uzumaki, rasengAN! ");
+        System.out.println("Meu nome é " + nome +" e esse é meu ataque Uzumaki, rasengan. E eu tenho  "+ numeroDeMissoes+" missões concluidas!");
     }
 
     @Override
