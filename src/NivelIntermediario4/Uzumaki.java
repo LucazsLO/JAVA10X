@@ -1,26 +1,33 @@
 package NivelIntermediario4;
 
-import NivelIntermediario4.Ninja;
-
 public class Uzumaki extends Ninja {
+
+    Biju biju;
+
+    public Uzumaki() {
+    }
+
+    public Uzumaki(String nome, String aldeia, int idade) {
+        super(nome, aldeia, idade);
+    }
 
     public Uzumaki(String nome, String aldeia, int idade, int numeroDeMissoes, RankNinja rank) {
         super(nome, aldeia, idade, numeroDeMissoes, rank);
     }
 
-    //Metodo
+    public Uzumaki(String nome, String aldeia, int idade, int numeroDeMissoes, RankNinja rank, Biju biju) {
+        super(nome, aldeia, idade, numeroDeMissoes, rank);
+        this.biju = biju;
+    }
+
     public void Modosabio(){
         System.out.println("Meu nome é " + nome + ". Modo sabio ativado, eu sou do clã Uzumaki!");
     }
 
+
     @Override
     public void HablidadeEspecial() {
         System.out.println("Meu nome é " + nome +" e esse é meu ataque Uzumaki, rasengan. E eu tenho  "+ numeroDeMissoes+" missões concluidas!");
-    }
-
-    @Override
-    public void estrategiaDeBatalhaNinja(){
-        System.out.println("Eu vou usar meu Jutsu sexy!");
     }
 
     @Override

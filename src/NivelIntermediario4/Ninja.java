@@ -27,7 +27,6 @@ public abstract class Ninja implements EstrategiaDeBatalha {
         this.rank = rank;
     }
 
-
     public void HablidadeEspecial(){
         System.out.println("Meu nome é " + nome +" e esse é meu ataque especial! ");
     }
