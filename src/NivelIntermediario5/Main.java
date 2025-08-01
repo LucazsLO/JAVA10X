@@ -1,0 +1,14 @@
+package NivelIntermediario5;
+
+public class Main {
+    public static void main(String[] args) {
+
+        System.out.println("-----------Naruto-----------");
+        Uzumaki Naruto = new Uzumaki("Aldeia da folha", 18,"Naruto", 22);
+        //System.out.println(Naruto.getNome());
+        Naruto.setNome("Naruto Uzumaki");
+        System.out.println(Naruto.getNome());
+        System.out.println("-----------Sasuke-----------");
+        Uchiha Sasuke = new Uchiha("Aldeia da folha", 18,"Sasuke", 23);
+    }
+}
