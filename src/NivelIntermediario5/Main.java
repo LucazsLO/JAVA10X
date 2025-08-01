@@ -9,6 +9,7 @@ public class Main {
         Naruto.setNome("Naruto Uzumaki");
         System.out.println(Naruto.getNome());
         System.out.println("-----------Sasuke-----------");
-        Uchiha Sasuke = new Uchiha("Aldeia da folha", 18,"Sasuke", 23);
+        Uchiha Sasuke = new Uchiha("Aldeia da folha", 18,"Sasuke Uchiha", 23);
+        System.out.println(Sasuke.getNome());
     }
 }
