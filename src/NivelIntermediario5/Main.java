@@ -11,5 +11,13 @@ public class Main {
         System.out.println("-----------Sasuke-----------");
         Uchiha Sasuke = new Uchiha("Aldeia da folha", 18,"Sasuke Uchiha", 23);
         System.out.println(Sasuke.getNome());
+
+        System.out.println("-----------Enums-----------");
+        Missoes missoes1 = new Missoes("Resgatar cachorro", RankingDeMissoes.D );
+        missoes1.exibirMissao();
+
+        Missoes missoes2 = new Missoes("Derrotar Zabuza", RankingDeMissoes.A);
+        missoes2.exibirMissao();
+
     }
 }
