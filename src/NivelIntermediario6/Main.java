@@ -12,8 +12,8 @@ public class Main {
         ninjaArray [1] = "Sasuke";
         ninjaArray [2] = "Sakura";
 
-        for (int i= 0; i<ninjaArray.length;i++){
-        System.out.println("Print array " + ninjaArray[i]);
+        for (String i : ninjaArray){
+        System.out.println("Print array " + i);
         }
 
         //List
