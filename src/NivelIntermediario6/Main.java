@@ -1,5 +1,7 @@
 package NivelIntermediario6;
 
+import NivelIntermediario5.Ninja;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -41,5 +43,9 @@ public class Main {
         bolsaGenerica.adicionarEquipamentos(espada);
 
         System.out.println(bolsaGenerica);
+
+        NinjaRecord cadastro = new NinjaRecord("Naruto", "narutoUzumaki@gmail", 11111111);
+        System.out.println(cadastro.email());
+
     }
 }
