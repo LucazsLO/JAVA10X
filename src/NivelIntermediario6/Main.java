@@ -4,6 +4,7 @@ import NivelIntermediario5.Ninja;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Stack;
 
 public class Main {
     public static void main(String[] args) {
@@ -47,5 +48,17 @@ public class Main {
         NinjaRecord cadastro = new NinjaRecord("Naruto", "naruto@gmail.com", 11111111);
         System.out.println(cadastro.caixaAlta());
 
+        System.out.println("-----------Stack-----------");
+
+        Stack<String> ninjaStack = new Stack<>();
+        ninjaStack.add("Naturo");
+        ninjaStack.push("Sasuke");
+        ninjaStack.push("Sakura");
+        ninjaStack.push("Orochimaru");
+        System.out.println(ninjaStack);
+        ninjaStack.pop();
+        System.out.println("Stack com pop: " + ninjaStack);
+        System.out.println("Stack com peek: " + ninjaStack.peek());
+        System.out.println("Tamanho Stcak: " + ninjaStack.size());
     }
 }
