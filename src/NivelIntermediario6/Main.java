@@ -44,8 +44,8 @@ public class Main {
 
         System.out.println(bolsaGenerica);
 
-        NinjaRecord cadastro = new NinjaRecord("Naruto", "narutoUzumaki@gmail", 11111111);
-        System.out.println(cadastro.email());
+        NinjaRecord cadastro = new NinjaRecord("Naruto", "naruto@gmail.com", 11111111);
+        System.out.println(cadastro.caixaAlta());
 
     }
 }
