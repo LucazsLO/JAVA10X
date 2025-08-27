@@ -2,9 +2,7 @@ package NivelIntermediario6;
 
 import NivelIntermediario5.Ninja;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Stack;
+import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
@@ -60,5 +58,25 @@ public class Main {
         System.out.println("Stack com pop: " + ninjaStack);
         System.out.println("Stack com peek: " + ninjaStack.peek());
         System.out.println("Tamanho Stcak: " + ninjaStack.size());
+
+        System.out.println("-----------Queue-----------");
+        Queue<String> ninjaQueue = new LinkedList<>();
+        ninjaQueue.add("Naturo");
+        ninjaQueue.add("Sasuke");
+        ninjaQueue.add("Sakura");
+        ninjaQueue.add("Kakashi");
+        System.out.println(ninjaQueue);
+        ninjaQueue.poll();
+        System.out.println(ninjaQueue);
+        ninjaQueue.poll();
+        ninjaQueue.poll();
+        ninjaQueue.poll();
+        ninjaQueue.poll();
+        if(ninjaQueue.isEmpty()){
+            System.out.println("Fila Vazia");
+        }
+
+
+
     }
 }
